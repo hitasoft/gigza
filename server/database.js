@@ -1,6 +1,6 @@
 var mongoDB=process.env.MONGODB_URI
 module.exports = {
-    database:  '',   //prod
+    database:  mongoDB,   //prod
     secret: 'uber'
   }
   
